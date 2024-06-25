@@ -11,4 +11,5 @@ router.get('/create-post', isAuth, (req, resp) => {
     resp.json("You are in create post route");
 });
 
+
 export default router;

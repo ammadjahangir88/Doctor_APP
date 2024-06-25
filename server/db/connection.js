@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 
 // Connecting to MongoDB
-const dbConnection = mongoose.connect("mongodb://127.0.0.1:27017/doccure")
+const dbConnection = mongoose.connect("mongodb://127.0.0.1:27017/propertyDB")
   .then(() => {
     console.log("DB connected");
   })
@@ -12,3 +12,4 @@ const dbConnection = mongoose.connect("mongodb://127.0.0.1:27017/doccure")
 
 // If you need to export the connection (for instance, to use it elsewhere), use export
 export default dbConnection;
+  
